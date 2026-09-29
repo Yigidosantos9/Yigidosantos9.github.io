@@ -1,84 +1,323 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Furkan Yiğit Bakım — Computer Science and Engineering student at Sabancı University.">
-  <title>Furkan Yiğit Bakım</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Furkan Yiğit Bakım — Computer Science and Engineering student at Sabancı University.">
+    <title>Furkan Yiğit Bakım</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <main class="container">
-    <header class="hero">
-      <div>
-        <p class="eyebrow">Computer Science & Engineering</p>
-        <h1>Furkan Yiğit Bakım</h1>
-        <p class="intro">Computer Science and Engineering student at Sabancı University, interested in software engineering, backend development and building practical products.</p>
-        <nav class="links">
-          <a href="assets/Furkan_Yigit_Bakim_CV.pdf" target="_blank">Resume ↗</a>
-          <a href="mailto:furkanyigit.bakim@gmail.com">Email ↗</a>
-          <a href="https://www.linkedin.com/in/furkan-yiğit-bakım/" target="_blank">LinkedIn ↗</a>
-          <a href="https://github.com/Yigidosantos9" target="_blank">GitHub ↗</a>
-        </nav>
-      </div>
-      <img class="profile" src="assets/profile.jpg" alt="Furkan Yiğit Bakım">
-    </header>
+    <main class="page">
+        <header class="profile-header">
+            <img src="assets/profile.jpg" alt="Portrait of Furkan Yiğit Bakım" class="portrait">
+            <div class="profile-copy">
+                <h1>Furkan Yiğit Bakım</h1>
+                <p class="headline">Software Engineer Intern <span>|</span> Computer Science and Engineering Student</p>
+                <nav class="contact" aria-label="Contact links">
+                    <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> İstanbul, Türkiye</span>
+                    <a href="assets/Furkan_Yigit_Bakim_CV.pdf" target="_blank" rel="noopener"><i
+                            class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> Resume</a>
+                    <a href="mailto:furkanyigit.bakim@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        Email</a>
+                    <a href="https://www.linkedin.com/in/furkan-yi%C4%9Fit-bak%C4%B1m/" target="_blank"
+                        rel="noopener"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+                    <a href="https://github.com/Yigidosantos9" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                </nav>
+            </div>
+        </header>
 
-    <section>
-      <h2>About</h2>
-      <p>I am pursuing a B.Sc. in Computer Science and Engineering at Sabancı University. I enjoy working across software engineering, backend systems and data-driven projects, and I have gained experience in both enterprise software development and undergraduate research.</p>
-    </section>
+        <section>
+            <h2>About Me</h2>
+            <p class="about-copy">I am a Computer Science and Engineering student at Sabancı University with an interest
+                in software engineering, backend development, and building practical digital products. I have gained
+                experience in enterprise software development and undergraduate research, while working with
+                technologies including .NET, Spring Boot, Python, Flutter, and Docker.</p>
+        </section>
 
-    <section>
-      <h2>Education</h2>
-      <div class="item">
-        <div><h3>Sabancı University</h3><p>B.Sc. in Computer Science and Engineering · GPA: 3.48/4.00</p><p class="muted">Sakıp Sabancı Incentive Scholarship · 75% Scholarship</p></div>
-        <span>2022 — 2027</span>
-      </div>
-      <div class="item">
-        <div><h3>SGH Warsaw School of Economics</h3><p>Erasmus+ Exchange Student · Warsaw, Poland</p></div>
-        <span>Feb — Jun 2026</span>
-      </div>
-      <div class="item">
-        <div><h3>Meram Science High School</h3><p>Grade: 96.24/100</p></div>
-        <span>2018 — 2022</span>
-      </div>
-    </section>
+        <section>
+            <h2>Education</h2>
+            <div class="entry-card">
+                <img src="assets/sabanci-logo.png" alt="Sabancı University logo" class="logo logo-image">
+                <div class="entry-body">
+                    <h3>Sabancı University</h3>
+                    <p class="role">B.Sc. in Computer Science and Engineering</p>
+                    <div class="pills"><span>GPA: 3.48/4.00</span><span>Sakıp Sabancı Incentive
+                            Scholarship</span><span>75% Scholarship</span></div>
+                </div>
+                <div class="entry-aside"><span>İstanbul, Türkiye</span><span>Sep 2022 — Jun 2027</span></div>
+            </div>
+            <div class="entry-card">
+                <img src="assets/sghwarsaw.jpeg" alt="SGH Warsaw School of Economics logo" class="logo logo-image">
+                <div class="entry-body">
+                    <h3>SGH Warsaw School of Economics</h3>
+                    <p class="role">Erasmus+ Exchange Student</p>
+                </div>
+                <div class="entry-aside"><span>Warsaw, Poland</span><span>Feb 2026 — Jun 2026</span></div>
+            </div>
+            <div class="entry-card">
+                <img src="assets/meramfen.jpg" alt="Meram Science High School logo" class="logo logo-image meram-logo">
+                <div class="entry-body">
+                    <h3>Meram Science High School</h3>
+                    <p class="role">Mathematics and Natural Sciences</p>
+                    <div class="pills"><span>Grade: 96.24/100</span></div>
+                </div>
+                <div class="entry-aside"><span>Konya, Türkiye</span><span>2018 — 2022</span></div>
+            </div>
+        </section>
 
-    <section>
-      <h2>Experience</h2>
-      <div class="item">
-        <div><h3>Software Engineer Intern · Softtech</h3><p>Contributing to enterprise software development using .NET and Spring Boot within an agile development team.</p><div class="tags"><span>.NET</span><span>Spring Boot</span><span>Docker</span><span>SonarQube</span><span>Azure DevOps</span></div></div>
-        <span>Jul — Oct 2026</span>
-      </div>
-      <div class="item">
-        <div><h3>Research Assistant · Sabancı University PURE</h3><p>Developed graph-based algorithms and scanning strategies for route validation, evacuation and aid-delivery scenarios.</p><div class="tags"><span>Python</span><span>Algorithms</span><span>Graph Search</span></div></div>
-        <span>Jun — Sep 2025</span>
-      </div>
-    </section>
+        <section>
+            <h2>Experience</h2>
+            <div class="entry-card experience-card">
+                <img src="assets/softtech.jpeg" alt="Softtech logo" class="logo logo-image">
+                <div class="entry-body">
+                    <h3>Softtech</h3>
+                    <p class="role">Software Engineer Intern</p>
+                    <p>Contributed to enterprise software development projects using .NET and Spring Boot within an
+                        agile development team.</p>
+                    <div class="pills"><span>.NET</span><span>Spring
+                            Boot</span><span>Docker</span><span>SonarQube</span><span>Azure
+                            DevOps</span><span>SourceTree</span></div>
+                </div>
+                <div class="entry-aside"><span>İstanbul, Türkiye</span><span>Jul 2026 — Present</span></div>
+            </div>
+            <div class="entry-card experience-card">
+                <img src="assets/pure.jpeg" alt="Sabancı University PURE logo" class="logo logo-image">
+                <div class="entry-body">
+                    <h3>Sabancı University — PURE</h3>
+                    <p class="role">Research Assistant</p>
+                    <p>Developed graph-based algorithms and scanning strategies for route validation, evacuation, and
+                        aid-delivery scenarios.</p>
+                    <div class="pills"><span>Python</span><span>Algorithms</span><span>Graph Search</span></div>
+                </div>
+                <div class="entry-aside"><span>İstanbul, Türkiye</span><span>Jun 2025 — Sep 2025</span></div>
+            </div>
+        </section>
 
-    <section>
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <article><h3>RAWCTRL</h3><p class="muted">E-commerce Website · Sabancı University</p><p>Backend services for a Spring Boot microservices-based platform covering catalog, cart/wishlist, checkout, refunds, invoice PDFs and email notifications.</p><div class="tags"><span>Spring Boot</span><span>Microservices</span><span>Java</span></div></article>
-        <article><h3>Lexycon</h3><p class="muted">Personal English Learning App</p><p>Cross-platform Flutter app with visual/contextual vocabulary learning, TTS pronunciation, quizzes, mistake tracking and movie phrase packs.</p><div class="tags"><span>Flutter</span><span>Dart</span><span>TTS</span></div></article>
-        <article><h3>Mobile Distraction Study</h3><p class="muted">Behavioral Data Science</p><p>Analyzed lecture hours and phone-pickup behavior to identify patterns affecting digital focus.</p><div class="tags"><span>Python</span><span>Excel</span><span>Data Visualization</span></div></article>
-        <article><h3>Life as an Ottoman Bank Clerk</h3><p class="muted">Sabancı University</p><p>Collaborated with Prof. Selim Balcısoy to analyze historical clerk data and develop an engaging series using AI applications.</p><div class="tags"><span>AI</span><span>Data Analysis</span></div></article>
-      </div>
-    </section>
+        <section>
+            <h2>Projects</h2>
+            <a class="project-card project-reveal" href="https://github.com/Yigidosantos9/CS308-Project" target="_blank"
+                rel="noopener" aria-label="View RAWCTRL on GitHub">
+                <img src="assets/rawctrl.jpeg" alt="RAWCTRL project preview" class="project-media project-image">
+                <div class="project-content">
+                    <div class="project-heading">
+                        <h3>RAWCTRL — E-commerce Website <i class="fa-brands fa-github" aria-hidden="true"></i></h3>
+                        <time>Sep 2025 — Jan 2026</time>
+                    </div>
+                    <p>Built backend services for a Spring Boot microservices-based e-commerce platform, covering
+                        catalog, cart/wishlist, checkout, refunds, invoice PDFs, and email notifications.</p>
+                    <div class="pills"><span>Spring Boot</span><span>Microservices</span><span>Java</span></div>
+                </div>
+            </a>
+            <a class="project-card project-reveal" href="https://github.com/Yigidosantos9/Lexycon" target="_blank"
+                rel="noopener" aria-label="View Lexycon on GitHub">
+                <img src="assets/lexy_logo.png" alt="Lexycon project preview" class="project-media project-image">
+                <div class="project-content">
+                    <div class="project-heading">
+                        <h3>Lexycon — Personal English Learning App <i class="fa-brands fa-github"
+                                aria-hidden="true"></i></h3><time>Jun 2025</time>
+                    </div>
+                    <p>Developed a cross-platform English learning app with Flutter, featuring visual/contextual
+                        vocabulary learning, TTS pronunciation, quiz mode, mistake tracking, and movie phrase packs.</p>
+                    <div class="pills"><span>Flutter</span><span>Dart</span><span>TTS</span></div>
+                </div>
+            </a>
+            <a class="project-card project-reveal" href="https://github.com/Yigidosantos9/DSA210-Term-Project"
+                target="_blank" rel="noopener" aria-label="View mobile distraction study on GitHub">
+                <img src="assets/avoid-distractions-mobile-off-phone-business-flat-line-filled-icon-banner-template-free-vector.jpg"
+                    alt="Mobile distraction study project preview" class="project-media project-image">
+                <div class="project-content">
+                    <div class="project-heading">
+                        <h3>A Behavioral Data Science Study on Mobile Distraction <i class="fa-brands fa-github"
+                                aria-hidden="true"></i></h3><time>Feb 2025 — Jun 2025</time>
+                    </div>
+                    <p>Analyzed daily lecture hours and phone pickup behavior using Python, Excel, and data
+                        visualization to identify patterns affecting digital focus.</p>
+                    <div class="pills"><span>Python</span><span>Excel</span><span>Data Visualization</span></div>
+                </div>
+            </a>
+            <article class="project-card project-reveal">
+                <img src="assets/ottoman.jpeg" alt="Ottoman Bank Clerk project preview"
+                    class="project-media project-image">
+                <div class="project-content">
+                    <div class="project-heading">
+                        <h3>Life as an Ottoman Bank Clerk — Sabancı University</h3><time>Sep 2024 — Jan 2025</time>
+                    </div>
+                    <p>Collaborated with Prof. Selim Balcısoy to analyze data on Ottoman Bank clerks and develop an
+                        engaging series using artificial intelligence applications.</p>
+                    <div class="pills"><span>AI</span><span>Data Analysis</span></div>
+                </div>
+            </article>
+            <a class="project-card project-reveal" href="https://github.com/Yigidosantos9/310-Project" target="_blank"
+                rel="noopener" aria-label="View CS310 course project on GitHub">
+                <img src="assets/spacynotes.png" alt="SpaceNotes project preview" class="project-media project-image">
+                <div class="project-content">
+                    <div class="project-heading">
+                        <h3>CS310 Course Project <i class="fa-brands fa-github" aria-hidden="true"></i></h3><time>Course
+                            Project</time>
+                    </div>
+                    <p>Designed a cross-platform Flutter application that makes studying more engaging through
+                        collaborative notes, shared task management, group goals, and gamified focus workflows.</p>
+                    <div class="pills"><span>Flutter</span><span>Dart</span><span>Mobile
+                            Development</span><span>Gamification</span></div>
+                </div>
+            </a>
+            <a class="project-card project-reveal" href="https://github.com/Yigidosantos9/DreamGames-Project"
+                target="_blank" rel="noopener" aria-label="View Dream Games project on GitHub">
+                <img src="assets/dreamgames.jpeg" alt="Dream Games match-3 project preview"
+                    class="project-media project-image">
+                <div class="project-content">
+                    <div class="project-heading">
+                        <h3>Dream Games — Match-3 Puzzle Game <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        </h3><time>Course Project</time>
+                    </div>
+                    <p>Created a match-3 puzzle game using the Unity game engine, designing the gameplay experience and
+                        implementing its interactive systems in C#.</p>
+                    <div class="pills"><span>Unity</span><span>C#</span><span>Game Development</span></div>
+                </div>
+            </a>
+        </section>
 
-    <section>
-      <h2>Skills</h2>
-      <div class="skill-row"><strong>Languages</strong><p>C#, C++, Python, Java, TypeScript, SQL</p></div>
-      <div class="skill-row"><strong>Frameworks & Technologies</strong><p>.NET, Spring Boot, Flutter, React, Node.js, Firebase</p></div>
-      <div class="skill-row"><strong>Tools</strong><p>Git, GitHub, Docker, SonarQube, Azure DevOps, SourceTree, Excel</p></div>
-      <div class="skill-row"><strong>Concepts</strong><p>OOP, REST APIs, Microservices, Database Management, Data Visualization</p></div>
-    </section>
+        <section class="activities-section">
+            <h2>Activities</h2>
+            <div class="activity-card">
+                <img src="assets/cip.jpg" alt="Sabancı University Civic Involvement Projects logo"
+                    class="logo logo-image">
+                <div class="entry-body">
+                    <h3>Sabancı University Civic Involvement Projects</h3>
+                    <p class="role">Advisor</p>
+                    <p>Guiding students through social sensitivity projects and helping them connect classroom learning
+                        with meaningful community work.</p>
+                    <div class="pills"><span>Civil Rights</span><span>Social Action</span><span>Mentoring</span></div>
+                </div>
+                <div class="entry-aside"><span>İstanbul, Türkiye</span><span>Aug 2026 — Present</span></div>
+            </div>
+            <div class="activity-card">
+                <img src="assets/sabanci-logo.png" alt="Sabancı University logo" class="logo logo-image">
+                <div class="entry-body">
+                    <h3>Sabancı University</h3>
+                    <p class="role">Mentor Supervisor</p>
+                    <p>Supporting student mentors and helping create a welcoming, supportive university experience for
+                        the wider student community.</p>
+                    <div class="pills"><span>Social Services</span><span>Mentoring</span></div>
+                </div>
+                <div class="entry-aside"><span>İstanbul, Türkiye</span><span>Aug 2026 — Present</span></div>
+            </div>
+            <div class="activity-card">
+                <img src="assets/sabanci-logo.png" alt="Sabancı University logo" class="logo logo-image">
+                <div class="entry-body">
+                    <h3>Sabancı University</h3>
+                    <p class="role">Exchange Student Buddy</p>
+                    <p>Matched with exchange students, supported their adaptation to campus life and Istanbul, and
+                        helped them navigate academic and social life.</p>
+                    <div class="pills"><span>Social Services</span><span>Intercultural Communication</span></div>
+                </div>
+                <div class="entry-aside"><span>İstanbul, Türkiye</span><span>Aug 2025 — Present</span></div>
+            </div>
+            <div class="activity-card">
+                <img src="assets/sabanci-logo.png" alt="Sabancı University logo" class="logo logo-image">
+                <div class="entry-body">
+                    <h3>Sabancı University</h3>
+                    <p class="role">Peer Mentor</p>
+                    <p>Guided first-year students through academic and social life, organized community-building
+                        activities, and helped mentees find the right resources.</p>
+                    <div class="pills"><span>Leadership</span><span>Communication</span><span>Mentoring</span></div>
+                </div>
+                <div class="entry-aside"><span>İstanbul, Türkiye</span><span>Aug 2025 — Jan 2026</span></div>
+            </div>
+            <div class="activity-card">
+                <img src="assets/cip.jpg" alt="Sabancı University Civic Involvement Projects logo"
+                    class="logo logo-image">
+                <div class="entry-body">
+                    <h3>Sabancı University Civic Involvement Projects</h3>
+                    <p class="role">Supervisor</p>
+                    <p>Led field studies with students across environmental awareness, nursing-home volunteering, sign
+                        language, animal rights, disability inclusion, and human-rights initiatives.</p>
+                    <div class="pills"><span>Civil Rights</span><span>Social Action</span><span>Leadership</span></div>
+                </div>
+                <div class="entry-aside"><span>İstanbul, Türkiye</span><span>Jan 2024 — Aug 2026</span></div>
+            </div>
+            <div class="activity-card">
+                <img src="assets/suhorse.jpeg" alt="Sabancı University Horseback Riding Club logo"
+                    class="logo logo-image">
+                <div class="entry-body">
+                    <h3>Sabancı University Horseback Riding Club</h3>
+                    <p class="role">President</p>
+                    <p>Organizing lessons and events while building a welcoming community where students can connect
+                        with nature and unwind from academic life.</p>
+                    <div class="pills"><span>Leadership</span><span>Event Coordination</span></div>
+                </div>
+                <div class="entry-aside"><span>İstanbul, Türkiye</span><span>Mar 2023 — Present</span></div>
+            </div>
+        </section>
 
-    <footer><p>© 2026 Furkan Yiğit Bakım · Built with HTML & CSS and hosted on GitHub Pages.</p></footer>
-  </main>
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-panel">
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <div class="pills"><span>Turkish (Native)</span><span>English</span></div>
+                </div>
+                <div class="skill-group">
+                    <h3>Programming Languages</h3>
+                    <div class="pills">
+                        <span>C#</span><span>C++</span><span>Python</span><span>Java</span><span>TypeScript</span><span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Backend</h3>
+                    <div class="pills"><span>.NET</span><span>Spring Boot</span><span>Node.js</span><span>REST
+                            APIs</span></div>
+                </div>
+                <div class="skill-group">
+                    <h3>Frontend / App Development</h3>
+                    <div class="pills"><span>Flutter</span><span>React</span><span>HTML</span><span>CSS</span></div>
+                </div>
+                <div class="skill-group">
+                    <h3>Databases</h3>
+                    <div class="pills"><span>DBeaver</span><span>PostgreSQL</span><span>MySQL</span></div>
+                </div>
+                <div class="skill-group">
+                    <h3>Cloud &amp; DevOps</h3>
+                    <div class="pills"><span>Docker</span><span>Azure
+                            DevOps</span><span>Git</span><span>GitHub</span><span>SonarQube</span></div>
+                </div>
+                <div class="skill-group">
+                    <h3>Tools</h3>
+                    <div class="pills"><span>SourceTree</span><span>Excel</span><span>Jira</span><span>Postman</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Other / Concepts</h3>
+                    <div class="pills"><span>OOP</span><span>Microservices</span><span>Database
+                            Management</span><span>Data Visualization</span><span>Firebase</span></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        document.documentElement.classList.add("js");
+        const projectCards = document.querySelectorAll(".project-reveal");
+        const projectObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("is-visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        projectCards.forEach((card) => projectObserver.observe(card));
+    </script>
 </body>
+
 </html>
